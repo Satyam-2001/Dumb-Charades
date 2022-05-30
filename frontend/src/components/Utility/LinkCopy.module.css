@@ -1,0 +1,44 @@
+.invite {
+    overflow: hidden ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(30, 31, 32);
+    margin-top: 10px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.link {
+    box-sizing: content-box;
+    margin: 5px;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.link-button {
+    background-color: rgb(77, 75, 75);
+    border-width: 0px;
+    border-radius: 5px;
+    color: rgb(129, 206, 250);
+    font-size: large;
+    width: 15%;
+}
+
+.link-button:hover {
+    color: white;
+    background-color: rgb(130, 208, 253);
+    transition: 0.3s;
+}
+
+.copied {
+    color: white;
+    background-color: rgb(170, 228, 112);
+}
+
+.copied:hover{
+    color: white;
+    background-color: rgb(170, 228, 112);
+}

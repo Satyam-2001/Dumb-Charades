@@ -1,0 +1,74 @@
+.title {
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-shadow:
+        0 0 6px rgba(202, 228, 225, 0.98),
+        0 0 30px rgba(202, 228, 225, 0.42),
+        0 0 12px rgba(30, 132, 242, 0.58),
+        0 0 22px rgba(30, 132, 242, 0.84),
+        0 0 38px rgba(30, 132, 242, 0.88),
+        0 0 60px rgba(30, 132, 242, 1);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(83, 210, 248, 0.4);
+    align-items: center;
+}
+
+.scores {
+    display: flex;
+    width: 100%;
+    margin:20px;
+    height: fit-content;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.team-name {
+    letter-spacing: 5px;
+    margin: 0px;
+}
+
+.team-score {
+    color:rgb(9, 116, 238);
+    background-color: aqua;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(61, 127, 250);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.play-again {
+    width: fit-content !important;
+    background-color: rgb(73, 193, 248);
+    color: #fff !important;
+}
+
+legend{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    margin: auto; 
+    padding: 0 4px; 
+} 
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.text {
+    margin: 0px;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    animation: show_text 1s ease forwards;
+}
+
+@keyframes show_text {
+    0% {
+        transform: translateY(100%);
+    }
+    40% {
+        transform: translateY(-50%);
+    }
+}

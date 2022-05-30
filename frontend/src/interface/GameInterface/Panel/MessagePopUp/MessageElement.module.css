@@ -1,0 +1,26 @@
+.block {
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(17, 27, 33);
+    margin: 5px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.block p {
+    margin: 3px 0px;
+}
+
+.name {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: greenyellow;
+}

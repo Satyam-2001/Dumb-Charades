@@ -1,0 +1,24 @@
+.color-container {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto auto ;
+    grid-template-columns: repeat(11,calc(100%/11));
+    background-color: #2196F3;
+}
+
+.color-item-button {
+    cursor: pointer;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+.color-item-button :hover {
+    background-color: antiquewhite;
+    border-width: 10px;
+    border-color: aquamarine;
+}
+
+.selected {
+    box-shadow: inset -2px 0 0 aqua, inset 0 -2px 0 aqua, inset 2px 0 0 aqua, inset 0 2px 0 aqua;
+}

@@ -1,0 +1,33 @@
+.page {
+    display: block;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+}
+
+.messageTaemA{
+    height: 50% !important;
+}
+
+.messageTaemB{
+    height: 50% !important;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    /* animation: show_team 0.3s ease forwards; */
+}
+
+@keyframes show_team {
+    0% {
+        transform: translateX(-100%);
+    }
+}

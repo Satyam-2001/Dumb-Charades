@@ -1,0 +1,25 @@
+.setting {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    /* border-radius: 5px; */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.link-copy {
+    margin-top: 20px !important;
+}

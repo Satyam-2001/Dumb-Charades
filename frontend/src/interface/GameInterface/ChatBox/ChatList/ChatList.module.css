@@ -1,0 +1,12 @@
+.chat-list {
+    background-color: rgb(18, 27, 34);
+}
+
+.list {
+    display: block;
+    overflow-y: auto;
+    white-space: nowrap;
+    /* width: 100%; */
+    /* overflow-x: hidden; */
+    flex-grow: 0;
+}

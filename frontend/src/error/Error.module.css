@@ -1,0 +1,17 @@
+.error-box {
+    background-color: rgba(10,10,10,0.7);
+    height: fit-content;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 30px;
+    border-style: solid;
+    border-color: red;
+}
+
+.error-message {
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}

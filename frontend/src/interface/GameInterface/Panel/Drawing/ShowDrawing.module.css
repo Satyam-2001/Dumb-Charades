@@ -1,0 +1,5 @@
+.canvas {
+    cursor: no-drop;
+    background-color: white;
+    overflow: hidden;
+}

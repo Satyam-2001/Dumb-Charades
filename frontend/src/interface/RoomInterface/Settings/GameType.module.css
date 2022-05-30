@@ -1,0 +1,31 @@
+.toggle {
+    display: flex;
+    flex-direction: row;
+    /* color: rgb(0, 68, 255); */
+    color: azure;
+    background-color: rgba(124, 189, 250, 0.7);
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+}
+
+.selected {
+    background-color: rgb(56, 133, 250);
+    height: 100%;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.disabled {
+    pointer-events: none;
+}

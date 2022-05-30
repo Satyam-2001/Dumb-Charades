@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 25%;
+    width: 100vw;
+    /* height: 100%; */
+    box-sizing: content-box;
+    margin: 30px;
+    /* padding: 30px; */
+    /* align-content: start; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    width: 100%;
+    /* height: fit-content; */
+    box-sizing: content-box;
+    margin: 0px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        display: block;
+        width: 80%;
+    }
+}

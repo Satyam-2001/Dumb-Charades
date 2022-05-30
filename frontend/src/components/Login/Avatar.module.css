@@ -1,0 +1,35 @@
+.avatar{
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.change-avatar{
+    display: inline-block;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0);
+    color: #03e9f4;
+    width: 100%;
+    font-size: 200%;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+}
+
+.change-avatar :focus,
+.change-avatar :hover{
+    color: #fff;
+    font-size: 400%;
+    filter: brightness(150%);
+}
+
+@media only screen and (max-width: 600px){
+    .avatar img{
+        width: 200%;
+        height: auto;
+        margin: auto;
+    }
+}

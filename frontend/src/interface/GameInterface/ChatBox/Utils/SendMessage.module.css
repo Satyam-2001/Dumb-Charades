@@ -1,0 +1,45 @@
+.send-message {
+    position: absolute;
+    box-sizing: content-box;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    bottom: 5px;
+    width: 98%;
+    height: 40px;
+    background-color: rgb(32, 44, 51);
+    border-radius: 4px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.send-icon{
+    box-sizing: border-box;
+    border: none;
+    color: rgb(92, 91, 91);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.send-active{
+    color: rgb(48, 153, 252);
+}
+
+.input-message{
+    display: flex;
+    flex: 1 1 25%;
+    padding-left: 20px;
+    background-color: transparent;
+    color:white;
+    appearance: none;
+    height: 80%;
+    margin: auto;
+    border: none;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.input-message:focus{
+    border: none;
+    outline: none;
+}

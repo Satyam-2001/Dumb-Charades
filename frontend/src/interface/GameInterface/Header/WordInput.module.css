@@ -1,0 +1,16 @@
+.input-word {
+    display: flex;
+    justify-self: center;
+    height: 60%;
+}
+
+.word {
+    background-color: rgb(32, 47, 58);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}

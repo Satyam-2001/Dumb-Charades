@@ -1,0 +1,61 @@
+.painting-option {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    overflow: hidden;
+    box-sizing: content-box;
+    /* align-items: center; */
+    justify-content: space-between;
+    justify-items: center;
+    bottom: 0px;
+    aspect-ratio: 13/1;
+    width: 100%;
+    background-color: rgb(51, 52, 53);
+}
+
+.options {
+    display: flex;
+    flex-shrink: 2;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.option {
+    height: 100%;
+    cursor: pointer;
+}
+
+.delete {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.dust-bin {
+    cursor: pointer;
+}
+
+.choosed {
+    background-color: aqua;
+}
+
+.dot-selected {
+    background-color: aqua !important;
+}
+
+.penicl-thickness {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dot {
+    display: flex;
+    cursor: pointer;
+    box-sizing: content-box;
+    margin: 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}

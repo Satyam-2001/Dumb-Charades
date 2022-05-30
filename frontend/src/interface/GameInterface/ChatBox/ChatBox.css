@@ -1,0 +1,33 @@
+.chat-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 25%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 20;
+}
+
+.round-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    color: rgb(137, 150, 159);
+    aspect-ratio: 1/1;
+}
+
+.round-button:hover {
+    background-color: rgb(42, 57, 66);
+}
+
+.chat-avatar {
+    height: 80%;
+    padding-left: 5px;
+    aspect-ratio: 1/1;
+}

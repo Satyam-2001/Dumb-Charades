@@ -1,0 +1,20 @@
+.user-chat {
+    background: url('../../../../assets/chat-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start-items {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.name {
+    margin: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}

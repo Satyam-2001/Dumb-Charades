@@ -1,0 +1,73 @@
+.control-panel {
+    box-sizing: border-box;
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    margin-bottom: 0;
+    position: fixed;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(17, 27, 33);
+    z-index: 100;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.start {
+    margin-left: 12px;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex: 1 1 25%;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -moz-box-flex: 1 1 25%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-box-flex: 1 1 25%;
+    flex: 1 1 25%;
+}
+
+.end {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 25%;
+}
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+}
+
+.round {
+    background-color: rgba(95, 166, 248, 0.5);
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.unread-message {
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    width: 20px;
+    aspect-ratio: 1/1;
+    background-color: aqua;
+    border-radius: 50%;
+}

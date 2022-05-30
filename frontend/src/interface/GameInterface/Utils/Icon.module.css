@@ -1,0 +1,15 @@
+.on {
+    background-color: rgb(27, 27, 27);
+}
+
+.on_hover:hover {
+    background-color: rgb(57, 57, 57);
+}
+
+.off {
+    background-color: red;
+}
+
+.off_hover:hover {
+    background-color: rgb(250, 86, 86);
+}
