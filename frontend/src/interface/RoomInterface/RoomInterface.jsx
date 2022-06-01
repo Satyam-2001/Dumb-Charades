@@ -117,6 +117,7 @@ const RoomInterface = (props) => {
     }
 
     const gameStartHandler = () => {
+        if (roomData.team['A'].length < 2 ||  roomData.team['B'].length < 2) return;
         if (!roomData.isRunning) {
             socket.emit('startGame', roomData.id)
         }
