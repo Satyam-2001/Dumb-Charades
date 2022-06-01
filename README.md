@@ -59,6 +59,6 @@ One player from the team is need to draw / act the word. While other team member
 You can chat with your particular friend , your team or everyone.
 
 <img width="958" alt="7" src="https://user-images.githubusercontent.com/88069082/170969426-2b72182e-4e16-420c-9773-17826f43582b.PNG">
-<img width="240" alt="8" src="https://user-images.githubusercontent.com/88069082/170969586-6bf3c030-694d-4607-9229-bb77468e25cb.PNG">
-<img width="242" alt="9" src="https://user-images.githubusercontent.com/88069082/170969630-7c1430bb-2707-42eb-aadc-f81196f66f8c.PNG">
-<img width="241" alt="10" src="https://user-images.githubusercontent.com/88069082/170970348-75668911-db3f-4798-89e6-8a07fbedbf15.PNG">
+<p text-align='center'>
+    <img width="780" alt="11 (1)" src="https://user-images.githubusercontent.com/88069082/171406652-0b91bf68-c9cb-472d-8121-9bc6c0fe06b9.png">
+</p>
