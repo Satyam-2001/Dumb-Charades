@@ -1,13 +1,11 @@
-import React, {useState,useContext} from 'react'
+import React, { useState } from 'react'
 import classes from './LinkCopy.module.css'
-import RoomContext from '../../context/room-context'
-import DataContext from '../../context/data-context'
 
 const LinkCopy = (props) => {
 
-    const [copyIcon , setCopyIcon] = useState(false)
-    
-    const link = `https://Satyam-2001.github.io/Dumb-Charades/${props.roomID}`
+    const [copyIcon, setCopyIcon] = useState(false)
+
+    const link = `https://Satyam-2001.github.io/Dumb-Charades/#/${props.roomID}`
 
     const copyLink = (event) => {
         navigator.clipboard.writeText(link);
