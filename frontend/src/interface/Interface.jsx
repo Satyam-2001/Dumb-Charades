@@ -6,7 +6,8 @@ import RoomInterface from './RoomInterface/RoomInterface'
 import Error from '../error/Error'
 import socketIOClient from 'socket.io-client';
 
-const ENDPOINT = 'http://localhost:4001';
+const ENDPOINT = 'https://dumbcharades-server.herokuapp.com/';
+// 'https://git.heroku.com/dumbcharades-server.git'
 const socket = socketIOClient(ENDPOINT);
 
 const dataReducer = (roomData, action) => {
