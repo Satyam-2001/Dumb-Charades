@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dumb-Charades/static/css/main.5267c120.css",
-    "main.js": "/Dumb-Charades/static/js/main.b5c76473.js",
+    "main.js": "/Dumb-Charades/static/js/main.45e76d99.js",
     "static/js/787.cda612ba.chunk.js": "/Dumb-Charades/static/js/787.cda612ba.chunk.js",
     "static/media/background.jpg": "/Dumb-Charades/static/media/background.2059fdbf2016ae3c2399.jpg",
     "static/media/25.png": "/Dumb-Charades/static/media/25.d3b147b1c0f61f83a276.png",
@@ -39,11 +39,11 @@
     "static/media/pencil.png": "/Dumb-Charades/static/media/pencil.99b3e2eed1f221a68dda.png",
     "index.html": "/Dumb-Charades/index.html",
     "main.5267c120.css.map": "/Dumb-Charades/static/css/main.5267c120.css.map",
-    "main.b5c76473.js.map": "/Dumb-Charades/static/js/main.b5c76473.js.map",
+    "main.45e76d99.js.map": "/Dumb-Charades/static/js/main.45e76d99.js.map",
     "787.cda612ba.chunk.js.map": "/Dumb-Charades/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5267c120.css",
-    "static/js/main.b5c76473.js"
+    "static/js/main.45e76d99.js"
   ]
 }
