@@ -6,7 +6,7 @@ import classes from './Error.module.css'
 const Error = (props) => {
 
     const goBackHandler = () => {
-        window.location.href = 'http://localhost:3000/'
+        window.location.href = 'https://Satyam-2001.github.io/Dumb-Charades'
     }
 
     return (

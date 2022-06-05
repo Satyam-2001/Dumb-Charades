@@ -1,22 +1,29 @@
-import React, { Fragment, useState } from "react"
+import React, { useState } from "react"
 import Interface from "./interface/Interface"
 import Login from "./components/Login/Login"
-
-const roomID = window.location.pathname.substring(1)
-const gameState = roomID === '' ? 'Create Private Room' : 'Join Room'
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
 
-  const [join, setJoin] = useState(false)
+  const [join, setJoin] = useState(null)
 
-  const joinRoom = () => {
-    setJoin(true)
+  const joinRoom = (data) => {
+    setJoin(data)
   }
 
   return (
-    <Fragment>
-      {join ? <Interface gameState={gameState} roomID={roomID} /> : <Login join={joinRoom} name={gameState} />}
-    </Fragment>
+    <Router basename='/'>
+      {join ? <Interface {...join} /> : undefined}
+      <Routes>
+        {
+          join ? undefined : (
+            <Route path="/" element={<Login join={joinRoom} />}> 
+               <Route path="/:roomID" element={<Login join={joinRoom} />} />
+            </Route>
+          )
+        }
+      </Routes>
+    </Router>
   )
 }
 

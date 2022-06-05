@@ -7,7 +7,7 @@ const LinkCopy = (props) => {
 
     const [copyIcon , setCopyIcon] = useState(false)
     
-    const link = `http://localhost:3000/${props.roomID}`
+    const link = `https://Satyam-2001.github.io/Dumb-Charades/${props.roomID}`
 
     const copyLink = (event) => {
         navigator.clipboard.writeText(link);
