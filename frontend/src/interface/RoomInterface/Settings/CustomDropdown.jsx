@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import RoomContext from '../../../context/room-context'
 import SocketContext from '../../../context/socket-context'
-import UserContext from '../../../context/user-context'
 import classes from './CustomDropdown.module.css'
 import Template from './Template'
 
@@ -18,7 +17,7 @@ const CustomDropdown = (props) => {
         <Template className={classes['custom-dropdown']} label={props.label} disabled={props.disabled}>
             <select onChange={inputHandler} value={roomData[props.label]} className={props.disabled ? classes.disabled : undefined}>
                 {props.options.map((value) => {
-                    return <option key={value} value={value} defaultValue={value === roomData[props.label]}>{value}</option>
+                    return <option key={value} value={value}>{value}</option>
                 })} 
             </select>
         </Template>

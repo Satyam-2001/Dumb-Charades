@@ -103,14 +103,6 @@ io.on('connection', socket => {
     })
 
     socket.on('startGame', (roomId) => {
-        // const roomData = getRoom(roomId)
-        // if (roomData.isRunning) {
-        //     io.to(roomId).emit('startGame', roomData.status)
-        // }
-        // else {
-        //     const updatedRoomData = createStatus(roomId)
-        //     io.to(roomId).emit('startGame', updatedRoomData.status)
-        // }
         const status = createStatus(roomId)
         io.to(roomId).emit('startGame', status)
     })
@@ -162,8 +154,6 @@ io.on('connection', socket => {
     })
 
     socket.on('guessedWord', (roomID, user, word) => {
-        // const roomData = getRoom(roomID)
-        // const actualWord = roomData.status.movie
         const isWordCorrect = checkWord(roomID, word)
         if (isWordCorrect.right) {
             const { scoreAdd } = isWordCorrect
