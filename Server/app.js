@@ -33,7 +33,7 @@ const currentTime = () => {
 }
 
 io.on('connection', socket => {
-
+    console.log('hello');
     socket.on('createRoom', (user, callback) => {
         const roomId = nanoid(10)
         const { roomData, color } = createNewRoom(roomId, { id: socket.id, ...user, mic: false })
